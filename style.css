@@ -2,9 +2,17 @@ h1{
     color: rgb(0, 0, 0);
     font-size: 50px;
 }
+.banner-detail{
+    font-size: 20px;
+  
+}
 body{
-    font-family: 'Abril Fatface', cursive;
-    margin: 0;
+    font-family: 'Poppins', sans-serif;
+    font-size: 40px;
+    width: 80%;
+    margin: 0 auto;
+
+   
     
 }
 .indigo-promo{
@@ -12,4 +20,69 @@ body{
 }
 section{
     display: flex;
+    
+}
+.middle-width{
+
+    width: 50%;
+    padding-left: 10px;
+}
+.middle-width img{
+    width: 100%;
+
+}
+.banner-title{
+    border-left:4px solid red ;
+    padding-left: 10px;
+
+   
+}
+.link-button{
+    text-decoration: none ;
+    font-size: 16px;
+    background-color: rgb(99, 36, 128);
+    color: white;
+    padding: 12px 35px;
+    border-radius: 5px;
+}
+.mission-title{
+    font-weight:bold;
+    font-size: 48px;
+    text-align: center;
+    padding: 50px 0px 40px 0px;
+}
+.mission-sec{
+    display: flex;
+    justify-content: space-between;
+   
+}
+.misson-card{
+    border-radius: 26px;
+    
+    padding: 32px 25px 13px 45px;
+  
+
+}
+.misson-card-1{
+    background: rgba(79, 157, 166, 0.1);
+    
+}
+.misson-card-2{
+    margin: 0px 24px;
+    background-color: rgba(255, 89, 89, 0.1);
+}
+.misson-card-3{
+    background-color: #FFF4D6;
+}   
+.misson-card img{
+    width: 141px;
+    height: 141px;
+
+}
+.misson-card h3{
+    font-size: 24px;
+    
+}
+.misson-card p{
+    font-size: 16px;
 }
