@@ -25,7 +25,7 @@ section{
 .middle-width{
 
     width: 50%;
-    padding-left: 10px;
+    padding: 10px;
 }
 .middle-width img{
     width: 100%;
@@ -44,6 +44,7 @@ section{
     color: white;
     padding: 12px 35px;
     border-radius: 5px;
+    
 }
 .mission-title{
     font-weight:bold;
@@ -54,6 +55,7 @@ section{
 .mission-sec{
     display: flex;
     justify-content: space-between;
+    margin-bottom: 100px;
    
 }
 .misson-card{
@@ -85,4 +87,52 @@ section{
 }
 .misson-card p{
     font-size: 16px;
+}
+.middle-width-three{
+    width: 40%;
+    padding-left: 10px;
+}
+.middle-width-three img{
+    width: 90%;
+
+}
+.banner-detail-title{
+    font-size: 20px;
+    /* padding:10px 0px 10px 0px */
+}
+.link-button-document{
+    text-decoration: none ;
+    font-size: 16px;
+    background-color: rgb(99, 36, 128);
+    color: white;
+    padding: 12px 35px;
+    border-radius: 5px;
+
+}
+.sec-develope{
+    display:flex;
+    margin-bottom: 50px;
+    
+    
+    
+
+}
+.develop-title{
+    font-weight: bold;
+font-size: 36px;
+}
+
+.final-width{
+    width: 50%;
+    padding-left: 10px;
+
+
+}
+.final-width img{
+    width: 90%;
+
+}
+.final-banner-detail{
+    font-size: 20px;
+    padding:50px 0px 40px 0px
 }
