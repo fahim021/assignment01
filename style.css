@@ -4,19 +4,18 @@ h1{
 }
 .banner-detail{
     font-size: 20px;
-  
+    padding: 20px 0px;
 }
 body{
     font-family: 'Poppins', sans-serif;
-    font-size: 40px;
-    width: 80%;
-    margin: 0 auto;
-
-   
     
 }
+.body1{
+    width: 80%;
+    margin: 0 auto;   
+}
 .indigo-promo{
-    color: rgb(61, 6, 87);
+    color: #935397;
 }
 section{
     display: flex;
@@ -60,7 +59,7 @@ section{
 }
 .misson-card{
     border-radius: 26px;
-    
+    width: 33%;
     padding: 32px 25px 13px 45px;
   
 
@@ -98,7 +97,7 @@ section{
 }
 .banner-detail-title{
     font-size: 20px;
-    /* padding:10px 0px 10px 0px */
+    padding: 20px 0px;
 }
 .link-button-document{
     text-decoration: none ;
@@ -111,6 +110,7 @@ section{
 }
 .sec-develope{
     display:flex;
+    justify-content: space-between;
     margin-bottom: 50px;
     
     
@@ -119,20 +119,56 @@ section{
 }
 .develop-title{
     font-weight: bold;
-font-size: 36px;
+    font-size: 36px;
 }
-
+.registration-sec{
+    display: flex;
+    justify-content: space-between;
+    align-items:center;
+}
+.final-sec{
+    display: flex;
+    justify-content: space-between;
+    align-items:center;
+}
 .final-width{
     width: 50%;
-    padding-left: 10px;
+    padding:50px;
 
 
 }
 .final-width img{
     width: 90%;
-
+}
+.final-width h1{
+    font-weight: bold;
+    font-size: 36px;
 }
 .final-banner-detail{
     font-size: 20px;
     padding:50px 0px 40px 0px
+}
+
+.input-field{
+    width: 80%;
+    height: 30px;
+    margin-bottom: 20px;
+}
+
+#footer-style{
+background-color: #0B0D17;
+height: 171px;
+margin: 0;
+}
+#footer-style h1{
+    text-align: center;
+    color: white;
+    padding-top: 30px;
+}
+#footer-style h1 span{
+    color: tomato;
+}
+#footer-style p{
+    color: white;
+    text-align: center;
 }
